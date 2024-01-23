@@ -1,0 +1,12 @@
+# Environment Base URLs
+@local-api-endpoint = http://127.0.0.1:3000
+@emulator-api-endpoint = http://127.0.0.1:5001/debtaz42-are-plants-pets-dev/us-central1/arePlantsPetsApi
+@dev-api-endpoint = https://areplantspetsapi-4pwbhoe32q-uc.a.run.app/
+
+# Environment Selection - Change this to switch environments
+@api-endpoint = {{emulator-api-endpoint}}
+
+### GET Request example
+GET {{api-endpoint}}
+Content-Type: application/json
+###

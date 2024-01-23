@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@nestjs/cli": "^10.2.1",
+    "firebase-tools": "^13.0.2"
+  }
+}
